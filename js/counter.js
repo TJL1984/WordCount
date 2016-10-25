@@ -14,6 +14,6 @@ console.log(wordCounter);
 
 //Epic mode...
 // function epic(str) {
-//   return.str.replace(/[^qwertyuiopasdfghjklzxcvbnm " "])/gi, ''); //^ excludes, and the g makes it global, i will capitalize.
+//   return.str.replace(/[^qwertyuiopasdfghjklzxcvbnm " "])/gi, ''); //^ excludes, the "g" makes it global, "i" will capitalize the letters.
 // }
 // console.log(epic(sonnet));
