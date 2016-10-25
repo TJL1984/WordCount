@@ -1,26 +1,14 @@
 
-var sonnet = document.querySelector('.sonnet').innerText
-console.log(sonnet);
-
-var string = sonnet;
+var sonnet = document.querySelector('.sonnet').innerText;
+  var wordCounter = {};
+  var counter = strSplit(sonnet).forEach(function countNum(count) {
+    wordCounter[count] = (wordCounter[count]||0)+1;
+});
 function strSplit(stringToSplit) {
   var arrayString = stringToSplit.split(' ');
-  console.log(arrayString);
   return arrayString;
 }
-
-strSplit(sonnet);
-
-strSplit(sonnet).forEach(function num(each) {
-  console.log(each)
-});
-
-
-
-
-
-
-
+console.log(wordCounter);
 
 
 
